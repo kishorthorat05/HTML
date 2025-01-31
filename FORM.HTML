@@ -1,0 +1,54 @@
+<HTML>
+<head><title>HTML form </title></head></body>
+<body bgcolor="yellow">
+<marquee direction="left" height="80px" scrollamount="20"><h1 align="center"  <b> Welcome To Hotel Kishor</b></h1></marquee><hr>
+<body><b>Login Here:</b></body><br>
+
+<form action="action.php"><label for="username"> username:
+<input type="text" placeholder="Username"></label><br><br>
+
+<label for="password">password:
+<input type="password" placeholder="passward"></label><br><br>
+
+ <a href="forgot-password.html">Forgot Password?</a>
+
+ <p>The Current Time Is: <span id="watch"></span></p>
+<script>
+  setInterval(() => document.getElementById('watch').innerText = new Date().toLocaleTimeString(), 1000);
+</script>
+
+
+<label for=DT>Select Date
+<input type="date"<br><br><br>
+
+<label for="BG">Burger
+    <input type="radio" name="menu" value="Burger" id="BG">
+</label>
+
+<label for="VP">Vadapav
+    <input type="radio" name="menu" value="Vadapav" id="VP">
+</label><br><br>
+
+
+<label for="PZ">Pizza
+<input type="checkbox" value="Pizza" name="menu" id="PZ"></label>
+
+<label for="CK">Cake
+<input type="checkbox" value="Cake" name="menu" id="CK"></label>
+
+<label for="FR">fries
+<input type="checkbox" value="fries" name="menu" id="FR"></label><br><br>
+
+<select>
+  <option value="Eat Here">Select Here</option>
+  <option value="Homedelivery">Home Delivery</option>
+</select><br><br>
+
+<input type="Submit" value="submit" style="background-color:pink"><br><br>
+
+
+<textarea value="FD" cols="15" rows"15"> feedback </textarea><br><br>
+</form>
+</body>
+</html>
+
